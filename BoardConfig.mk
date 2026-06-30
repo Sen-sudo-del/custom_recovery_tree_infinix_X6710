@@ -190,6 +190,18 @@ TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_HAS_MTP := true
 TW_HAS_NO_RECOVERY_PARTITION := true
 
+# OrangeFox specific
+FOX_VERSION := "R11.3"
+OF_MAINTAINER := "Sen"
+OF_AB_DEVICE := 1
+OF_USE_MAGISKBOOT := 1
+OF_TWRP_COMPATIBILITY_MODE := 1
+OF_USE_GREEN_LED := 0
+OF_SCREEN_H := 2400      # match your actual screen resolution
+OF_STATUS_H := 100
+OF_STATUS_INDENT_LEFT := 48
+OF_STATUS_INDENT_RIGHT := 48
+
 # Vendor Boot
 # Making sure recovery build don't have kernel in it--well, no kernel at all in tree anyway... LOL!
 BOARD_EXCLUDE_KERNEL_FROM_RECOVERY_IMAGE := true
